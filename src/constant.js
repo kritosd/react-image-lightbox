@@ -11,7 +11,7 @@ export const ZOOM_RATIO = 1.007;
 export const ZOOM_BUTTON_INCREMENT_SIZE = 100;
 
 // Used to judge the amount of horizontal scroll needed to initiate a image move
-export const WHEEL_MOVE_X_THRESHOLD = 200;
+export const WHEEL_MOVE_X_THRESHOLD = 20;
 
 // Used to judge the amount of vertical scroll needed to initiate a zoom action
 export const WHEEL_MOVE_Y_THRESHOLD = 1;
@@ -36,4 +36,4 @@ export const SOURCE_TOUCH = 2;
 export const SOURCE_POINTER = 3;
 
 // Minimal swipe distance
-export const MIN_SWIPE_DISTANCE = 200;
+export const MIN_SWIPE_DISTANCE = 20;
